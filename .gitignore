@@ -1,0 +1,22 @@
+# Python virtual environments & interpreters
+venv/
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Data & Audio Files (Never commit raw audio datasets or binaries)
+dsp-ml/data/
+dsp-ml/test_vectors/*.wav
+*.joblib
+*.pkl
+*.zip
+*.tar.gz
+
+# Embedded & C++ build caches
+.pio/
+.vscode/
+firmware/.pio/
+build/
+*.bin
+*.elf
