@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------------
+AUSCULT-AI TRACK C: PYTHON REFERENCE DSP BENCHMARK
+-------------------------------------------------------------------------------------
+Vector Name            | SQI_band   | SQI_flat   | Status   | Reason
+-------------------------------------------------------------------------------------
+vector_0_clean         | 0.9871     | 0.0105     | PASS     | Valid physiological signal
+vector_1_wheeze        | 0.9682     | 0.0279     | PASS     | Valid physiological signal
+vector_2_friction      | 0.5690     | 0.5527     | REJECT   | Out-of-band energy (Hum/Speech/Leak)
+vector_3_hum           | 0.0000     | 0.0014     | REJECT   | Out-of-band energy (Hum/Speech/Leak)
+vector_4_speech        | 0.0000     | 0.0043     | REJECT   | Out-of-band energy (Hum/Speech/Leak)
+-------------------------------------------------------------------------------------
