@@ -1,0 +1,483 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\eshaa\OneDrive\Desktop\3rd Sem\EL\AUSCULT_AI_Filter - ADC step test with microvolts.net
+Start Time: Sun Nov  1 11:19:56 2026
+
+.step amp=0.000112 rg=1000
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000224 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.00045 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.001 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.005 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.01 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.02 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.05 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.1 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.2 rg=1000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000112 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000224 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.00045 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.001 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.005 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.01 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.02 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.05 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.1 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.2 rg=1500
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000112 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000224 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.00045 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.001 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.005 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.01 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.02 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.05 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.1 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.2 rg=2200
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000112 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000224 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.00045 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.001 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.005 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.01 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.02 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.05 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.1 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.2 rg=3300
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000112 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.000224 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.00045 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.001 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.005 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.01 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.02 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.05 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.1 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+
+.step amp=0.2 rg=11000
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 7.686 seconds.
+Total iterations: 34599
+
+Files loaded:
+C:\Users\eshaa\OneDrive\Desktop\3rd Sem\EL\AUSCULT_AI_Filter - ADC step test with microvolts.net
+C:\Users\eshaa\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
+
+Measurement: vmax
+  step	MAX(V(vout))	FROM	TO
+     1	1.66129219532	0.02	0.06
+     2	1.67258429527	0.02	0.06
+     3	1.6953701973	0.02	0.06
+     4	1.75082278252	0.02	0.06
+     5	2.15411305428	0.02	0.06
+     6	2.65822029114	0.02	0.06
+     7	3.29977345467	0.02	0.06
+     8	3.29977202415	0.02	0.06
+     9	3.29976391792	0.02	0.06
+    10	3.29975938797	0.02	0.06
+    11	1.65756702423	0.02	0.06
+    12	1.66513347626	0.02	0.06
+    13	1.68040204048	0.02	0.06
+    14	1.71756005287	0.02	0.06
+    15	1.98780024052	0.02	0.06
+    16	2.32559967041	0.02	0.06
+    17	3.00118279457	0.02	0.06
+    18	3.2997777462	0.02	0.06
+    19	3.29976797104	0.02	0.06
+    20	3.29976153374	0.02	0.06
+    21	1.65519535542	0.02	0.06
+    22	1.66039061546	0.02	0.06
+    23	1.6708739996	0.02	0.06
+    24	1.69638669491	0.02	0.06
+    25	1.8819334507	0.02	0.06
+    26	2.11386656761	0.02	0.06
+    27	2.57773137093	0.02	0.06
+    28	3.29977822304	0.02	0.06
+    29	3.29977297783	0.02	0.06
+    30	3.29976439476	0.02	0.06
+    31	1.65350103378	0.02	0.06
+    32	1.65700221062	0.02	0.06
+    33	1.66406691074	0.02	0.06
+    34	1.68125987053	0.02	0.06
+    35	1.80629956722	0.02	0.06
+    36	1.96259903908	0.02	0.06
+    37	2.27519774437	0.02	0.06
+    38	3.21296215057	0.02	0.06
+    39	3.29977822304	0.02	0.06
+    40	3.29976868629	0.02	0.06
+    41	1.65112876892	0.02	0.06
+    42	1.65225756168	0.02	0.06
+    43	1.65453529358	0.02	0.06
+    44	1.66007840633	0.02	0.06
+    45	1.70039176941	0.02	0.06
+    46	1.75078356266	0.02	0.06
+    47	1.85156726837	0.02	0.06
+    48	2.15391802788	0.02	0.06
+    49	2.65783548355	0.02	0.06
+    50	3.29977178574	0.02	0.06
+
+Measurement: vmin
+  step	MIN(V(vout))	FROM	TO
+     1	1.63870799541	0.02	0.06
+     2	1.62741601467	0.02	0.06
+     3	1.60463035107	0.02	0.06
+     4	1.54917871952	0.02	0.06
+     5	1.1458940506	0.02	0.06
+     6	0.641794204712	0.02	0.06
+     7	0.000230472083786	0.02	0.06
+     8	0.000229989862419	0.02	0.06
+     9	0.000237680011196	0.02	0.06
+    10	0.000242096983129	0.02	0.06
+    11	1.6424331665	0.02	0.06
+    12	1.6348669529	0.02	0.06
+    13	1.6195987463	0.02	0.06
+    14	1.58244156837	0.02	0.06
+    15	1.31220793724	0.02	0.06
+    16	0.974416732788	0.02	0.06
+    17	0.298851430416	0.02	0.06
+    18	0.000224471950787	0.02	0.06
+    19	0.000233547281823	0.02	0.06
+    20	0.000239662549575	0.02	0.06
+    21	1.64480483532	0.02	0.06
+    22	1.63960969448	0.02	0.06
+    23	1.62912666798	0.02	0.06
+    24	1.60361468792	0.02	0.06
+    25	1.41807353497	0.02	0.06
+    26	1.18614733219	0.02	0.06
+    27	0.722296655178	0.02	0.06
+    28	0.00022458541207	0.02	0.06
+    29	0.000228687524213	0.02	0.06
+    30	0.000236723237322	0.02	0.06
+    31	1.64649915695	0.02	0.06
+    32	1.64299798012	0.02	0.06
+    33	1.63593351841	0.02	0.06
+    34	1.61874115467	0.02	0.06
+    35	1.49370598793	0.02	0.06
+    36	1.3374119997	0.02	0.06
+    37	1.02482426167	0.02	0.06
+    38	0.0870919749141	0.02	0.06
+    39	0.000223497234401	0.02	0.06
+    40	0.000232471502386	0.02	0.06
+    41	1.6488713026	0.02	0.06
+    42	1.64774262905	0.02	0.06
+    43	1.64546501637	0.02	0.06
+    44	1.63992226124	0.02	0.06
+    45	1.59961128235	0.02	0.06
+    46	1.54922258854	0.02	0.06
+    47	1.44844520092	0.02	0.06
+    48	1.14611303806	0.02	0.06
+    49	0.64222663641	0.02	0.06
+    50	0.000230072895647	0.02	0.06
+
+Measurement: pp
+  step	PP(V(vout))	FROM	TO
+     1	0.0225841999054	0.02	0.06
+     2	0.0451682806015	0.02	0.06
+     3	0.0907398462296	0.02	0.06
+     4	0.201644062996	0.02	0.06
+     5	1.00821900368	0.02	0.06
+     6	2.01642608643	0.02	0.06
+     7	3.29954298258	0.02	0.06
+     8	3.29954203429	0.02	0.06
+     9	3.29952623791	0.02	0.06
+    10	3.29951729099	0.02	0.06
+    11	0.0151338577271	0.02	0.06
+    12	0.0302665233612	0.02	0.06
+    13	0.0608032941818	0.02	0.06
+    14	0.135118484497	0.02	0.06
+    15	0.675592303276	0.02	0.06
+    16	1.35118293762	0.02	0.06
+    17	2.70233136415	0.02	0.06
+    18	3.29955327425	0.02	0.06
+    19	3.29953442376	0.02	0.06
+    20	3.29952187119	0.02	0.06
+    21	0.0103905200958	0.02	0.06
+    22	0.0207809209824	0.02	0.06
+    23	0.0417473316193	0.02	0.06
+    24	0.0927720069885	0.02	0.06
+    25	0.463859915733	0.02	0.06
+    26	0.92771923542	0.02	0.06
+    27	1.85543471575	0.02	0.06
+    28	3.29955363763	0.02	0.06
+    29	3.2995442903	0.02	0.06
+    30	3.29952767152	0.02	0.06
+    31	0.00700187683105	0.02	0.06
+    32	0.0140042304993	0.02	0.06
+    33	0.028133392334	0.02	0.06
+    34	0.0625187158585	0.02	0.06
+    35	0.312593579292	0.02	0.06
+    36	0.625187039375	0.02	0.06
+    37	1.2503734827	0.02	0.06
+    38	3.12587017566	0.02	0.06
+    39	3.2995547258	0.02	0.06
+    40	3.29953621479	0.02	0.06
+    41	0.00225746631622	0.02	0.06
+    42	0.00451493263245	0.02	0.06
+    43	0.00907027721405	0.02	0.06
+    44	0.0201561450958	0.02	0.06
+    45	0.100780487061	0.02	0.06
+    46	0.201560974121	0.02	0.06
+    47	0.403122067451	0.02	0.06
+    48	1.00780498981	0.02	0.06
+    49	2.01560884714	0.02	0.06
+    50	3.29954171284	0.02	0.06
+
+Measurement: gain
+  step	pp/(2*amp)
+     1	100.822321006
+     2	100.822054914
+     3	100.822051366
+     4	100.822031498
+     5	100.821900368
+     6	100.821304321
+     7	82.4885745646
+     8	32.9954203429
+     9	16.4976311896
+    10	8.24879322747
+    11	67.5618648529
+    12	67.5592039313
+    13	67.5592157576
+    14	67.5592422485
+    15	67.5592303276
+    16	67.5591468811
+    17	67.5582841039
+    18	32.9955327425
+    19	16.4976721188
+    20	8.24880467797
+    21	46.3862504278
+    22	46.3859843356
+    23	46.3859240214
+    24	46.3860034943
+    25	46.3859915733
+    26	46.385961771
+    27	46.3858678937
+    28	32.9955363763
+    29	16.4977214515
+    30	8.24881917881
+    31	31.2583787101
+    32	31.2594430787
+    33	31.2593248155
+    34	31.2593579292
+    35	31.2593579292
+    36	31.2593519688
+    37	31.2593370676
+    38	31.2587017566
+    39	16.497773629
+    40	8.24884053698
+    41	10.077974626
+    42	10.077974626
+    43	10.0780857934
+    44	10.0780725479
+    45	10.0780487061
+    46	10.0780487061
+    47	10.0780516863
+    48	10.0780498981
+    49	10.0780442357
+    50	8.2488542821
+
+Measurement: output_peak
+  step	pp/2
+     1	0.0112920999527
+     2	0.0225841403008
+     3	0.0453699231148
+     4	0.100822031498
+     5	0.504109501839
+     6	1.00821304321
+     7	1.64977149129
+     8	1.64977101715
+     9	1.64976311896
+    10	1.64975864549
+    11	0.00756692886353
+    12	0.0151332616806
+    13	0.0304016470909
+    14	0.0675592422485
+    15	0.337796151638
+    16	0.675591468811
+    17	1.35116568208
+    18	1.64977663712
+    19	1.64976721188
+    20	1.64976093559
+    21	0.00519526004791
+    22	0.0103904604912
+    23	0.0208736658096
+    24	0.0463860034943
+    25	0.231929957867
+    26	0.46385961771
+    27	0.927717357874
+    28	1.64977681881
+    29	1.64977214515
+    30	1.64976383576
+    31	0.00350093841553
+    32	0.00700211524963
+    33	0.014066696167
+    34	0.0312593579292
+    35	0.156296789646
+    36	0.312593519688
+    37	0.625186741352
+    38	1.56293508783
+    39	1.6497773629
+    40	1.6497681074
+    41	0.00112873315811
+    42	0.00225746631622
+    43	0.00453513860703
+    44	0.0100780725479
+    45	0.0503902435303
+    46	0.100780487061
+    47	0.201561033726
+    48	0.503902494907
+    49	1.00780442357
+    50	1.64977085642
+
+Measurement: adc_steps
+  step	output_peak/0.0008
+     1	14.1151249409
+     2	28.2301753759
+     3	56.7124038935
+     4	126.027539372
+     5	630.136877298
+     6	1260.26630402
+     7	2062.21436411
+     8	2062.21377143
+     9	2062.20389869
+    10	2062.19830687
+    11	9.45866107941
+    12	18.9165771008
+    13	38.0020588636
+    14	84.4490528107
+    15	422.245189548
+    16	844.489336014
+    17	1688.9571026
+    18	2062.22079641
+    19	2062.20901485
+    20	2062.20116949
+    21	6.49407505989
+    22	12.988075614
+    23	26.092082262
+    24	57.9825043678
+    25	289.912447333
+    26	579.824522138
+    27	1159.64669734
+    28	2062.22102352
+    29	2062.21518144
+    30	2062.2047947
+    31	4.37617301941
+    32	8.75264406204
+    33	17.5833702087
+    34	39.0741974115
+    35	195.370987058
+    36	390.74189961
+    37	781.48342669
+    38	1953.66885979
+    39	2062.22170363
+    40	2062.21013425
+    41	1.41091644764
+    42	2.82183289528
+    43	5.66892325878
+    44	12.5975906849
+    45	62.9878044128
+    46	125.975608826
+    47	251.951292157
+    48	629.878118634
+    49	1259.75552946
+    50	2062.21357053
